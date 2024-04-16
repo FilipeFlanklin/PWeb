@@ -1,0 +1,62 @@
+#principal {
+    position: absolute;
+    width: 853px;
+    top: 6vh;
+    left: 28vw;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+    box-shadow: 10px 5px 5px #dbdbdb;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2vh;
+}
+
+#Campos{
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+    box-shadow: 10px 5px 5px #dbdbdb;
+    padding: 5px;
+    border-radius: 10px;
+}
+#Campos button{
+    position: relative;
+    display: inline-flex;
+    border-radius: 5px;
+    left: 658px;
+    margin: 8px 3px;
+}
+#tabela {
+    top: 1vh;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+    box-shadow: 10px 5px 5px #dbdbdb;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#tabela th{
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#tabela td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+}

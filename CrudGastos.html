@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+    <title>Gastos</title>
+
+<body>
+    <div id="Principal">
+        <h1>sistema de cadastro de gastos</h1>
+
+        <div id="Campos">
+            Código: <input type="number" id="CodGasto" placeholder="Digite o Código">
+            Nome:<input type="text" id="NmeGasto" placeholder="Digite o Nome">
+            Valor: <input type="number" id="VlrGasto" placeholder="Digite o Valor">
+            Tipo: <select name="TipoGasto" id="TipoGasto">
+                <option value="Essencial">Essencial</option>
+                <option value="supérfluo">supérfluo</option>
+            </select>
+            <button onclick="salvar()" id="salvar">Salvar Novo</button>
+            <button onclick="cancelar()">Cancelar</button>
+        </div>
+        <div id="tabela">
+            <table>
+                <thead>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</body>
+</head>
+
+<body>
+
+</body>
+
+</html>
